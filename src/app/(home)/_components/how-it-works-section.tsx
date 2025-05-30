@@ -35,7 +35,7 @@ export function HowItWorksSection() {
           </p>
         </div>
 
-        <div className="grid gap-8 md:grid-cols-3">
+        <div className="container mx-auto grid gap-4 md:grid-cols-3">
           {step.map((step, i) => (
             <Card key={i} className="border-none shadow-md">
               <CardContent className="pt-6">
