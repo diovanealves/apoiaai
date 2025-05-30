@@ -4,7 +4,7 @@ import { ArrowRightIcon } from "lucide-react";
 
 export function HeroSection() {
   return (
-    <section className="px-4 py-20 md:px-6 md:py-28">
+    <section className="container mx-auto px-5 py-20 md:px-6 md:py-28">
       <div className="grid items-center gap-6 lg:grid-cols-2 lg:gap-12">
         <div className="space-y-4">
           <Badge className="bg-purple-100 text-purple-700 hover:bg-purple-100">
