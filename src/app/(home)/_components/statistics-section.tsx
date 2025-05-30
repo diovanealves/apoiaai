@@ -26,7 +26,7 @@ const stats = [
 
 export function StatisticsSection() {
   return (
-    <section id="estatisticas" className="bg-purple-50 pt-10 pb-7">
+    <section id="estatisticas" className="bg-purple-50 py-10">
       <div className="px-4 md:px-6">
         <div className="mb-10 text-center">
           <h2 className="text-3xl font-bold tracking-tighter">

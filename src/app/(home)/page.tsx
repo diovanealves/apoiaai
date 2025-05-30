@@ -1,5 +1,6 @@
 import { Header } from "./_components/header";
 import { HeroSection } from "./_components/hero-section";
+import { HowItWorksSection } from "./_components/how-it-works-section";
 import { StatisticsSection } from "./_components/statistics-section";
 
 export default function Home() {
@@ -9,6 +10,7 @@ export default function Home() {
       <main className="flex-1">
         <HeroSection />
         <StatisticsSection />
+        <HowItWorksSection />
       </main>
     </div>
   );
