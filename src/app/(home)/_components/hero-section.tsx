@@ -1,6 +1,8 @@
+import CreatorCommunity from "@/assets/creator-community.png";
 import { Badge } from "@/components/ui/badge";
 import { Button } from "@/components/ui/button";
 import { ArrowRightIcon } from "lucide-react";
+import Image from "next/image";
 
 export function HeroSection() {
   return (
@@ -33,7 +35,12 @@ export function HeroSection() {
           </div>
         </div>
 
-        <div className="relative h-[400px] w-full overflow-hidden rounded-lg bg-black"></div>
+        <Image
+          src={CreatorCommunity}
+          alt="Demonstração da plataforma"
+          className="overflow-hidden rounded-xl object-cover"
+          priority
+        />
       </div>
     </section>
   );

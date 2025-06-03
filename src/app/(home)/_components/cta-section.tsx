@@ -1,4 +1,6 @@
+import ConnectWithStreamers from "@/assets/connect-with-streamers.png";
 import { Button } from "@/components/ui/button";
+import Image from "next/image";
 
 export function CTASection() {
   return (
@@ -34,7 +36,12 @@ export function CTASection() {
           </div>
 
           <div className="relative h-[300px] w-full overflow-hidden rounded-xl">
-            <div className="h-full w-full bg-white" />
+            <Image
+              src={ConnectWithStreamers}
+              alt="Plataforma em ação"
+              fill
+              className="object-cover"
+            />
           </div>
         </div>
       </div>

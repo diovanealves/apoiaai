@@ -25,7 +25,7 @@ export function StreamersSection() {
             <div key={i} className="flex flex-col items-center">
               <Avatar className="mb-3 h-24 w-24">
                 <AvatarImage
-                  src={`/placeholder.svg?height=96&width=96&text=Streamer${i}`}
+                  src="https://static-cdn.jtvnw.net/jtv_user_pictures/d87f6113-9678-441e-a979-cf9a6ef43599-profile_image-300x300.png"
                   alt={`Streamer ${i}`}
                 />
                 <AvatarFallback>S{i}</AvatarFallback>
