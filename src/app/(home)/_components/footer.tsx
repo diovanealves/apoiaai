@@ -1,4 +1,4 @@
-import { HeartIcon } from "lucide-react";
+import { Logo } from "@/components/logo";
 import Link from "next/link";
 
 const footerSections = [
@@ -36,11 +36,8 @@ export function Footer() {
       <div className="container px-4 py-8 md:px-6">
         <div className="grid grid-cols-2 gap-8 md:grid-cols-4">
           <div>
-            <div className="mb-4 flex items-center gap-2">
-              <HeartIcon className="h-6 w-6 text-purple-500" />
-              <span className="text-lg font-bold">ApoiaAí</span>
-            </div>
-            <p className="text-muted-foreground text-sm">
+            <Logo />
+            <p className="text-muted-foreground mt-2 text-sm">
               Conectando fãs e criadores de conteúdo de forma única e especial.
             </p>
           </div>
