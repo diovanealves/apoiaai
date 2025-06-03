@@ -7,7 +7,7 @@ export function Header() {
     <header className="bg-background/95 supports-[backdrop-filter]:bg-background/70 sticky top-0 z-40 border-b px-5 backdrop-blur">
       <div className="container mx-auto flex h-16 items-center justify-between">
         <div className="flex items-center gap-1">
-          <HeartIcon className="h-6 w-6 fill-purple-500 text-purple-500" />
+          <HeartIcon className="h-6 w-6 animate-pulse fill-purple-500 text-purple-500 duration-300" />
           <span className="text-xl font-bold">ApoiaAí</span>
         </div>
 
